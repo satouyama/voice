@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-label stacked>Texto a ser falado</ion-label>
+      <ion-input type="text"  [(ngModel)]="textoASerFalado"></ion-input>
+    </ion-item>
+  </ion-list>  
+
+  <button ion-button color="dark" (click)="falar()">Dark</button>
+</ion-content>
